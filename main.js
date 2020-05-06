@@ -21,7 +21,7 @@ const handleClick = (div) => {
             Score = Score + 1
             document.getElementById("Score").innerHTML = "Score: " + Score.toString()
             if (Score == 5) {
-                alert("Congratulation, you found all the pair in")}
+                alert("Congratulation, you found all the pairs!")}
         } else if (div.style.visibility == 'hidden') {
             div.style.visibility = 'visible'
             hideOnTimeout(div, currenPick)
