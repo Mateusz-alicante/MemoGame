@@ -1,0 +1,48 @@
+#game_title {
+    color: orange;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid red;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#main_game_grid {
+    background-color: orange;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.game_box{
+    background-color: green;
+    margin: 5%;
+    font-size: 500%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+#bottom_indiator {
+    margin-top: 1%;
+    background-color: green;
+    height: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+#Score {
+    font-size: 300%;
+}
+
+#Timer {
+    font-size: 300%;
+}
